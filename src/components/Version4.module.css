@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .container {
+    display: block; /* Cambia el layout de flex a block en dispositivos móviles */
+  }
+}
+
+.cardWrapper {
+  flex: 3;
+  padding: 0px !important;
+}
+
+.cardHeader {
+  padding: 15px;
+  border-bottom: 0.0625rem solid #dee2e6;
+}
+
+.productCardWrapper {
+  flex: 3;
+  overflow: auto;
+}
+
+.buttonGroup {
+  margin-bottom: 10px;
+}
+
+.eventText {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.alertBox {
+  margin-top: 10px;
+}
+
+.docsButton {
+  margin-right: 10px;
+}
+
+.demoContainer {
+  margin-top: 20px;
+}
